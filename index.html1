@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Poornima's Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #b91010ff;
+      color: #9f7575ff;
+    }
+    header {
+      background: #7eb5ddff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #0077cc;
+      padding-bottom: 5px;
+    }
+    ul {
+      list-style-type: square;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #ddd;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Poornima</h1>
+    <p>Machine Learning Engineer | NLP Specialist | Multilingual AI</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>I’m passionate about building multilingual NLP models that bridge cultural and linguistic gaps. I specialize in LSTM architectures, SentencePiece tokenization, and interactive CLI tools.</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>Advanced Python (TensorFlow, SentencePiece)</li>
+      <li>Multilingual NLP (Hindi, Marathi, Gujarati, Hinglish)</li>
+      <li>CLI development for AI applications</li>
+      <li>Model training, fine-tuning, and performance monitoring</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Next-Word Predictor:</strong> Multilingual LSTM model with SentencePiece tokenizer</li>
+      <li><strong>CLI Demo:</strong> Interactive command-line interface for real-time predictions</li>
+      <li><strong>Hindi Text Dataset:</strong> Synthetic corpus generation and preprocessing</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: poornima@example.com</p>
+    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">yourusername</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Poornima. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
