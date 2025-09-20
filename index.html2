@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Finance Dashboard</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f2f5;
+      color: #333;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #2c3e50;
+      border-bottom: 2px solid #ecf0f1;
+      padding-bottom: 5px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+      text-align: left;
+    }
+    th {
+      background-color: #ecf0f1;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #bdc3c7;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Finance Dashboard</h1>
+    <p>Track your income, expenses, and investments</p>
+  </header>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>Income</h2>
+      <table>
+        <tr><th>Source</th><th>Amount</th><th>Date</th></tr>
+        <tr><td>Salary</td><td>₹75,000</td><td>Sep 1, 2025</td></tr>
+        <tr><td>Freelance</td><td>₹15,000</td><td>Sep 10, 2025</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>Expenses</h2>
+      <table>
+        <tr><th>Category</th><th>Amount</th><th>Date</th></tr>
+        <tr><td>Rent</td><td>₹25,000</td><td>Sep 5, 2025</td></tr>
+        <tr><td>Groceries</td><td>₹6,500</td><td>Sep 8, 2025</td></tr>
+        <tr><td>Utilities</td><td>₹3,200</td><td>Sep 12, 2025</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>Investments</h2>
+      <table>
+        <tr><th>Type</th><th>Amount</th><th>Status</th></tr>
+        <tr><td>Mutual Funds</td><td>₹50,000</td><td>Active</td></tr>
+        <tr><td>Stocks</td><td>₹30,000</td><td>Active</td></tr>
+      </table>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© 2025 Poornima's Finance Tracker</p>
+  </footer>
+
+</body>
+</html>
