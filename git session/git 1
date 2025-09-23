@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fitness Tracker</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #27ae60;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #27ae60;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+      text-align: left;
+    }
+    th {
+      background-color: #ecf0f1;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Fitness Tracker</h1>
+    <p>Track workouts, goals, and progress</p>
+  </header>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>Workout Log</h2>
+      <table>
+        <tr><th>Date</th><th>Exercise</th><th>Duration</th><th>Calories Burned</th></tr>
+        <tr><td>Sep 20, 2025</td><td>Running</td><td>30 mins</td><td>300 kcal</td></tr>
+        <tr><td>Sep 21, 2025</td><td>Yoga</td><td>45 mins</td><td>180 kcal</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>Goals</h2>
+      <ul>
+        <li>🏃‍♀️ Run 5 km in under 30 minutes</li>
+        <li>🧘‍♀️ Practice yoga 3 times a week</li>
+        <li>💪 Build upper and lower body strength</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Progress</h2>
+      <table>
+        <tr><th>Metric</th><th>Start</th><th>Current</th></tr>
+        <tr><td>Weight</td><td>65 kg</td><td>62 kg</td></tr>
+        <tr><td>Body Fat %</td><td>24%</td><td>21%</td></tr>
+      </table>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© 2025 Poornima's Fitness Tracker</p>
+  </footer>
+
+</body>
+</html>
